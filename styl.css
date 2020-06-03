@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.container a:hover {
+  opacity: 0.6;
+}
+
+ .back {
+   margin-left: 121px;
+    margin-top: 1px;
+    width: 45px;
+    height: 38px;
+
+}
+
+.logo {
+  margin-left: 121px;
+   margin-top: 1px;
+   width: 100px;
+   height: 96px;
+
+}
+
+#image-header {
+  width: 630px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 180%;
+  color: #666;
+  text-align: center;
+}
+.parallax1 {
+
+  background: url(findmentor.jpg);
+  min-height: 80%;
+}
+.parallax2 {
+  background: url(mentorpic.jpg);
+  min-height: 60%;
+  opacity: 0.5;
+}
+.parallax3 {
+  background: url(240_F_320662823_DJgGoWmQDq9fuausvRzZnyRxApS6g2Zj.jpg);
+  min-height: 40%;
+  opacity: 0.5;
+}
+.parallax4 {
+  background: url(240_F_128345842_GmxFQ8CzbbBCixtLSiBDhPyWGSuFjYFq.jpg);
+  min-height: 100%;
+  opacity: 0.8;
+}
+.parallax1, .parallax2, .parallax3, .parallax4 {
+  position: relative;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.dark {
+  overflow: auto;
+  padding: 60px 90px;
+  background-color:   #5bdbed;
+  color: #f2f2f2;
+}
+
+.mentor-image {
+  margin: 20px;
+  border-radius: 100%;
+}
+
+.mentor-text {
+  color: white;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.social-handle{
+  color: white;
+  margin: 20px 10px;
+}
+.fa{
+  margin: 14px 12px;
+}
